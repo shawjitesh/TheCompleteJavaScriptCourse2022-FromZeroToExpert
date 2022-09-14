@@ -8,4 +8,17 @@ let population = 20000000;
 console.log(country);
 console.log(continent);
 console.log(population);
+
+console.log("====================");
+
+console.log("Assignment for Data Types");
+
+let isIsland = false;
+let language;
+
+console.log(typeof isIsland);
+console.log(typeof population);
+console.log(typeof country);
+console.log(typeof language);
+
 console.log("====================");
