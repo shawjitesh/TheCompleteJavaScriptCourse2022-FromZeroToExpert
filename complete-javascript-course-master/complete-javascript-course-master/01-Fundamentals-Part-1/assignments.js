@@ -1,7 +1,7 @@
 console.log("====================");
 console.log("Assignment for Values and Variables");
 
-let country = "India";
+const country = "India";
 let continent = "Asia"
 let population = 20000000;
 
@@ -10,7 +10,6 @@ console.log(continent);
 console.log(population);
 
 console.log("====================");
-
 console.log("Assignment for Data Types");
 
 let isIsland = false;
@@ -20,5 +19,11 @@ console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
+
+console.log("====================");
+console.log("Assignment for let, const and var");
+
+language = "Hindi";
+country = "Indonesia";
 
 console.log("====================");
