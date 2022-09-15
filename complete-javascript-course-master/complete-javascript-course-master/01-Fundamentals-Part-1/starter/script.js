@@ -57,7 +57,6 @@ job = "teacher";
 
 lastName = "Shaw";
 console.log(lastName);
-*/
 
 // Math operators
 const now = 2022;
@@ -88,3 +87,17 @@ console.log(ageAsmita >= 18);
 const isFullAge = ageAsmita >= 18;
 
 console.log(now - 1993 > now - 1995);
+*/
+
+const now = 2022;
+const ageJitesh = now - 1993;
+const ageAsmita = now - 1995;
+
+console.log(now - 1993 > now - 1995);
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10, x = 10
+console.log(x, y);
+
+const averageAge = (ageJitesh + ageAsmita) / 2;
+console.log(ageJitesh, ageAsmita, averageAge);

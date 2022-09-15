@@ -1,3 +1,4 @@
+/*
 console.log("====================");
 console.log("Assignment for Values and Variables");
 
@@ -43,3 +44,4 @@ const description = country + " is in " + continent + ", and its " + population 
 console.log(description);
 
 console.log("====================");
+*/
