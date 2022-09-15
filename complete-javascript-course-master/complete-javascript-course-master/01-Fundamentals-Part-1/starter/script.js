@@ -87,7 +87,6 @@ console.log(ageAsmita >= 18);
 const isFullAge = ageAsmita >= 18;
 
 console.log(now - 1993 > now - 1995);
-*/
 
 const now = 2022;
 const ageJitesh = now - 1993;
@@ -101,3 +100,4 @@ console.log(x, y);
 
 const averageAge = (ageJitesh + ageAsmita) / 2;
 console.log(ageJitesh, ageAsmita, averageAge);
+*/
