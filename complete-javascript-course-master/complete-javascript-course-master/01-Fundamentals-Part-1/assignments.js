@@ -24,6 +24,6 @@ console.log("====================");
 console.log("Assignment for let, const and var");
 
 language = "Hindi";
-country = "Indonesia";
+// country = "Indonesia";
 
 console.log("====================");
