@@ -100,7 +100,6 @@ console.log(x, y);
 
 const averageAge = (ageJitesh + ageAsmita) / 2;
 console.log(ageJitesh, ageAsmita, averageAge);
-*/
 
 const firstName = "Jitesh";
 const job = "programmer";
@@ -122,3 +121,4 @@ lines");
 console.log(`String
 multiple
 lines`);
+*/

@@ -14,7 +14,7 @@ console.log("====================");
 console.log("Assignment for Data Types");
 
 let isIsland = false;
-let language;
+const language;
 
 console.log(typeof isIsland);
 console.log(typeof population);
@@ -40,8 +40,20 @@ console.log(population > finlandPopulation);
 let avgPopulation = 33000000;
 console.log(population < avgPopulation);
 
-const description = country + " is in " + continent + ", and its " + population / 1000000 + " million people speak " + language;
+const description = country + " is in " + continent + ", and it's " + population / 1000000 + " million people speak " + language;
+console.log(description);
+*/
+
+console.log("====================");
+
+console.log("Assignment for Strings and Template Literals");
+
+const country = "India";
+const continent = "Asia";
+let population = 20000000;
+const language = "Hindi";
+
+const description = `${country} is in ${continent}, and it's ${population / 1000000} millon people speak ${language}`;
 console.log(description);
 
 console.log("====================");
-*/
