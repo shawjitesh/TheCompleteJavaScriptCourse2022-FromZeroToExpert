@@ -1,3 +1,4 @@
+/*
 console.log("====================");
 console.log("Coding Challenge #1");
 
@@ -20,3 +21,4 @@ const markHigherBMI = markBMI > johnBMI;
 console.log(markBMI, johnBMI, markHigherBMI);
 
 console.log("====================");
+*/
