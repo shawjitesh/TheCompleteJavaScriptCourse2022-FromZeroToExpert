@@ -225,7 +225,6 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 } else {
     console.log("Someone else should drive...");
 }
-*/
 
 const day = "monday";
 
@@ -266,3 +265,4 @@ if (day === "monday") {
 } else {
     console.log("Not a valid day!!");
 }
+*/
