@@ -54,6 +54,20 @@ const language = "Hindi";
 
 const description = `${country} is in ${continent}, and it's ${population / 1000000} millon people speak ${language}`;
 console.log(description);
+*/
 
 console.log("====================");
-*/
+console.log("Assignment for Taking Decisions: If - Else Statements");
+
+const country = "India";
+let population = 130000000;
+const avgPopulation = 33000000;
+
+if (population > avgPopulation) {
+    console.log(`${country}'s population is above average`);
+} else {
+    const diffInPopulation = (avgPopulation - population) / 1000000;
+    console.log(`${country}'s population is ${diffInPopulation} million below average`);
+}
+
+console.log("====================");
