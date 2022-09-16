@@ -43,7 +43,6 @@ if (markBMI > johnBMI) {
 } else {
     console.log(`John's BMI(${johnBMI}) is higher than Mark's(${markBMI})!`);
 }
-*/
 
 console.log("====================");
 console.log("Coding Challenge #3");
@@ -80,3 +79,4 @@ if (avgDolphinsScore > avgKoalasScore && avgDolphinsScore >= 100) {
 }
 
 console.log("====================");
+*/
