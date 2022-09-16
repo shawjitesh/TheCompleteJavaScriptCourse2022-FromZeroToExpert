@@ -86,6 +86,22 @@ const numNeighbours = Number(prompt("How many neighbour countries does your coun
 if (numNeighbours === 1) console.log("Only 1 border!");
 else if (numNeighbours > 1) console.log("More than 1 border");
 else console.log("No borders");
+*/
 
 console.log("====================");
-*/
+console.log("Assignment for Logical Operators");
+
+const country = prompt("What is your country's name?");
+const language = prompt("Which language do you speak?");
+const population = Number(prompt(`What is the population of ${country}`));
+let isIsland = prompt(`Is ${country} an island?`);
+if (isIsland === "yes") isIsland = true;
+else isIsland = false;
+
+if (language === "English" && population < 50000000 && !isIsland) {
+    console.log(`You should live in ${country} 😊`);
+} else {
+    console.log(`${country} does not meet your criteria 😞`);
+}
+
+console.log("====================");
