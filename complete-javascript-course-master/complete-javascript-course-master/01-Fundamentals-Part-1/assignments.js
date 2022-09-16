@@ -128,6 +128,15 @@ switch (language) {
     default:
         console.log("Great language too 😃");
 }
+*/
 
 console.log("====================");
-*/
+console.log("Assignment for The Conditional(Ternary) Operator");
+
+const country = prompt("What is your country's name?");
+let population = Number(prompt(`What is the population of ${country}?`));
+const avgPopulation = 33000000;
+
+population > avgPopulation ? console.log(`${country}'s population is above average`) : console.log(`${country}'s population is below average`);
+
+console.log("====================");
