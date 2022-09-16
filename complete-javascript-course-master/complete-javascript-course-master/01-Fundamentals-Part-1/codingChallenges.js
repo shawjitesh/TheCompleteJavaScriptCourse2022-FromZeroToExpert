@@ -77,6 +77,13 @@ if (avgDolphinsScore > avgKoalasScore && avgDolphinsScore >= 100) {
 } else {
     console.log("No team wins!!! 😶");
 }
+*/
 
 console.log("====================");
-*/
+console.log("Coding Challenge #4");
+
+const billAmount = Number(prompt("What is the bill amount Jitesh?"));
+
+billAmount >= 50 && billAmount <= 300 ? console.log(`The bill was ${billAmount}, the tip was ${billAmount * 0.15}, and the total value ${billAmount + (billAmount * 0.15)}`) : console.log(`The bill was ${billAmount}, the tip was ${billAmount * 0.2}, and the total value ${billAmount + (billAmount * 0.2)}`);
+
+console.log("====================");

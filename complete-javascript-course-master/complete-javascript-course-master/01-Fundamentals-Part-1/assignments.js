@@ -128,7 +128,6 @@ switch (language) {
     default:
         console.log("Great language too 😃");
 }
-*/
 
 console.log("====================");
 console.log("Assignment for The Conditional(Ternary) Operator");
@@ -140,3 +139,4 @@ const avgPopulation = 33000000;
 population > avgPopulation ? console.log(`${country}'s population is above average`) : console.log(`${country}'s population is below average`);
 
 console.log("====================");
+*/
