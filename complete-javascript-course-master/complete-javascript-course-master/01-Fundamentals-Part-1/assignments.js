@@ -102,7 +102,6 @@ if (language === "English" && population < 50000000 && !isIsland) {
 } else {
     console.log(`${country} does not meet your criteria 😞`);
 }
-*/
 
 console.log("====================");
 console.log("Assignment for The Switch Statement");
@@ -131,3 +130,4 @@ switch (language) {
 }
 
 console.log("====================");
+*/
