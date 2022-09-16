@@ -121,7 +121,6 @@ lines");
 console.log(`String
 multiple
 lines`);
-*/
 
 const age = 7;
 
@@ -141,3 +140,4 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+*/
