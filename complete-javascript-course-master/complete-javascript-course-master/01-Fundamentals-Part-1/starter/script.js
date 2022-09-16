@@ -265,7 +265,7 @@ if (day === "monday") {
 } else {
     console.log("Not a valid day!!");
 }
-*/
+
 
 3 + 4;
 1991;
@@ -277,3 +277,20 @@ if (23 > 10) {
 
 const me = "Jitesh";
 console.log(`I'm ${2022 - 1993} years old ${me}`);
+*/
+
+const age = 23;
+age >= 18 ? console.log("I like to drink rum 🍷") : console.log("I like to drink water 💧");
+
+const drink = age >= 18 ? "rum 🍷" : "water 💧";
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+    drink2 = "rum 🍷";
+} else {
+    drink2 = "water 💧";
+}
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? "rum 🍷" : "water 💧"}`);
