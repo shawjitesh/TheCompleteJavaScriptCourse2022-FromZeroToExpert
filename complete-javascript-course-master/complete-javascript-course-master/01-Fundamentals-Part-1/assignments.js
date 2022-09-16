@@ -54,7 +54,6 @@ const language = "Hindi";
 
 const description = `${country} is in ${continent}, and it's ${population / 1000000} millon people speak ${language}`;
 console.log(description);
-*/
 
 console.log("====================");
 console.log("Assignment for Taking Decisions: If - Else Statements");
@@ -71,3 +70,4 @@ if (population > avgPopulation) {
 }
 
 console.log("====================");
+*/
