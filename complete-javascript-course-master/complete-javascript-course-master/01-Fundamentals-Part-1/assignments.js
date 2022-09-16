@@ -42,7 +42,6 @@ console.log(population < avgPopulation);
 
 const description = country + " is in " + continent + ", and it's " + population / 1000000 + " million people speak " + language;
 console.log(description);
-*/
 
 console.log("====================");
 
@@ -57,3 +56,4 @@ const description = `${country} is in ${continent}, and it's ${population / 1000
 console.log(description);
 
 console.log("====================");
+*/

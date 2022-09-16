@@ -122,3 +122,22 @@ console.log(`String
 multiple
 lines`);
 */
+
+const age = 7;
+
+if (age >= 18) {
+    console.log("Asmita can start driving license 🚗");
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Asmita is too young. Wait another ${yearsLeft} years ✌️`);
+}
+
+const birthYear = 1993;
+let century;
+
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
