@@ -86,7 +86,6 @@ const numNeighbours = Number(prompt("How many neighbour countries does your coun
 if (numNeighbours === 1) console.log("Only 1 border!");
 else if (numNeighbours > 1) console.log("More than 1 border");
 else console.log("No borders");
-*/
 
 console.log("====================");
 console.log("Assignment for Logical Operators");
@@ -105,3 +104,4 @@ if (language === "English" && population < 50000000 && !isIsland) {
 }
 
 console.log("====================");
+*/
