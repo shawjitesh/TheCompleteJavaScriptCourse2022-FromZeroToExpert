@@ -68,7 +68,6 @@ const yearsUnitlRetirement = (birthYear, firstName) => {
 
 console.log(yearsUnitlRetirement(1993, "Jitesh"));
 console.log(yearsUnitlRetirement(1995, "Asmita"));
-*/
 
 function cutFruitPieces(fruit) {
     return fruit * 4;
@@ -83,3 +82,4 @@ function fruitProcessor(apples, oranges) {
 }
 
 console.log(fruitProcessor(2, 3));
+*/
