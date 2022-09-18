@@ -1,4 +1,8 @@
+'use strict';
+
 /*
+console.log("====================");
+console.log("Fundamentals - Part1")
 console.log("====================");
 console.log("Assignment for Values and Variables");
 
@@ -140,3 +144,23 @@ population > avgPopulation ? console.log(`${country}'s population is above avera
 
 console.log("====================");
 */
+
+console.log("====================");
+console.log("Fundamentals - Part2")
+console.log("====================");
+console.log("Assignment for Functions");
+
+function describeCountry(country, population, capitalCity) {
+    return `${country} has ${population / 1000000} million people and it's capital city is ${capitalCity}.`;
+}
+
+const testData1 = describeCountry("India", 20000000, "Delhi");
+console.log(testData1);
+
+const testData2 = describeCountry("Finland", 6000000, "Helsinki");
+console.log(testData2);
+
+const testData3 = describeCountry("Singapore", 10000000, "Malaysia");
+console.log(testData3);
+
+console.log("====================");

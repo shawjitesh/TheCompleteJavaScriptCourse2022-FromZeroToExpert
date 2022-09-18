@@ -9,7 +9,7 @@ if (hasDriversLicense) console.log("I can drive 🙂");
 
 // const interface = "Audio";
 // const private = 534;
-*/
+
 
 function logger() {
     console.log("My name is Jitesh");
@@ -33,3 +33,4 @@ const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
 
 const num = Number("23");
+*/
