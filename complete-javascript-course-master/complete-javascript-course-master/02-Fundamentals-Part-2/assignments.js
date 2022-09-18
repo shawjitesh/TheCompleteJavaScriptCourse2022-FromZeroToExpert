@@ -145,8 +145,8 @@ population > avgPopulation ? console.log(`${country}'s population is above avera
 console.log("====================");
 */
 
-console.log("====================");
-console.log("Fundamentals - Part2")
+// console.log("====================");
+// console.log("Fundamentals - Part2")
 
 /*
 console.log("====================");
@@ -199,7 +199,6 @@ console.log(testData2);
 
 testData3 = percentageOfWorld2(100000000);
 console.log(testData3);
-*/
 
 console.log("====================");
 console.log("Assignment for Arrow Functions");
@@ -217,3 +216,4 @@ const testData3 = percentageOfWorld3(100000000);
 console.log(testData3);
 
 console.log("====================");
+*/
