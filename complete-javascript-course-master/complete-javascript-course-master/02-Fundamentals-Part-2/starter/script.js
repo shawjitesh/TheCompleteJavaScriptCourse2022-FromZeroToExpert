@@ -48,7 +48,6 @@ const calcAge2 = function (birthYear) {
 const age2 = calcAge2(1993);
 
 console.log(age1, age2);
-*/
 
 // Function expression
 const calcAge2 = function (birthYear) {
@@ -69,3 +68,4 @@ const yearsUnitlRetirement = (birthYear, firstName) => {
 
 console.log(yearsUnitlRetirement(1993, "Jitesh"));
 console.log(yearsUnitlRetirement(1995, "Asmita"));
+*/
