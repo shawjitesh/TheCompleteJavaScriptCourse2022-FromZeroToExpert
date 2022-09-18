@@ -33,7 +33,7 @@ const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
 
 const num = Number("23");
-*/
+
 
 // Function declaration
 const age1 = calcAge1(1993);
@@ -48,3 +48,4 @@ const calcAge2 = function (birthYear) {
 const age2 = calcAge2(1993);
 
 console.log(age1, age2);
+*/

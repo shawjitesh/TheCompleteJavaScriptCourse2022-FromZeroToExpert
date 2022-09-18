@@ -145,8 +145,8 @@ population > avgPopulation ? console.log(`${country}'s population is above avera
 console.log("====================");
 */
 
-// console.log("====================");
-// console.log("Fundamentals - Part2")
+console.log("====================");
+console.log("Fundamentals - Part2")
 
 /*
 console.log("====================");
@@ -164,6 +164,41 @@ console.log(testData2);
 
 const testData3 = describeCountry("Singapore", 10000000, "Malaysia");
 console.log(testData3);
+*/
 
 console.log("====================");
-*/
+console.log("Assignment for Function Declarations and Expressions");
+
+// Function Declaration
+const worldPopulation = 7900000000;
+
+let testData1 = percentageOfWorld1(200000000);
+console.log(testData1);
+
+let testData2 = percentageOfWorld1(60000000);
+console.log(testData2);
+
+let testData3 = percentageOfWorld1(100000000);
+console.log(testData3);
+
+function percentageOfWorld1(population) {
+    return (population / worldPopulation) * 100;
+}
+
+console.log("-----------------");
+
+// Function Expression
+const percentageOfWorld2 = function (population) {
+    return (population / worldPopulation) * 100;
+}
+
+testData1 = percentageOfWorld2(200000000);
+console.log(testData1);
+
+testData2 = percentageOfWorld2(60000000);
+console.log(testData2);
+
+testData3 = percentageOfWorld2(100000000);
+console.log(testData3);
+
+console.log("====================");
