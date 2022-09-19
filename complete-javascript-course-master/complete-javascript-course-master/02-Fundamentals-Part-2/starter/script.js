@@ -103,7 +103,6 @@ const yearsUnitlRetirement = function (birthYear, firstName) {
 
 console.log(yearsUnitlRetirement(1993, "Jitesh"));
 console.log(yearsUnitlRetirement(1800, "Mayuri"));
-*/
 
 const friend1 = "Raktim";
 const friend2 = "Harsh";
@@ -142,3 +141,4 @@ console.log(age1, age2, age3);
 
 const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
 console.log(ages);
+*/

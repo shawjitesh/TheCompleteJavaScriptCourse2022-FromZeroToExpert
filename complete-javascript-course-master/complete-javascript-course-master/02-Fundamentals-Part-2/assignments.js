@@ -145,8 +145,8 @@ population > avgPopulation ? console.log(`${country}'s population is above avera
 console.log("====================");
 */
 
-// console.log("====================");
-// console.log("Fundamentals - Part2")
+console.log("====================");
+console.log("Fundamentals - Part2")
 
 /*
 console.log("====================");
@@ -229,6 +229,21 @@ const describePopulation = (country, population) => {
 console.log(describePopulation("India", 200000000));
 console.log(describePopulation("Finland", 60000000));
 console.log(describePopulation("Singapore", 100000000));
+*/
 
 console.log("====================");
-*/
+console.log("Assignment for Introduction to Arrays");
+
+const populations = [200000000, 60000000, 100000000, 330000000];
+
+if (populations.length == 4) console.log(true);
+else console.log(false);
+
+const worldPopulation = 7900000000;
+const percentageOfWorld1 = (population) => (population / worldPopulation) * 100;
+
+const percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]), percentageOfWorld1(populations[2]), percentageOfWorld1(populations[3])];
+
+console.log(percentages);
+
+console.log("====================");
