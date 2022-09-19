@@ -191,7 +191,6 @@ const jitesh = {
     job: "programmer",
     friends: ["Raktim", "Shubham", "Karni"]
 };
-*/
 
 const jitesh = {
     firstName: "Jitesh",
@@ -225,3 +224,4 @@ console.log(jitesh);
 // "Jonas has 3 friends, and his best friend is called Raktim"
 
 console.log(`${jitesh.firstName} has ${jitesh.friends.length} friends, and his best friend is called ${jitesh.friends[0]}`);
+*/
