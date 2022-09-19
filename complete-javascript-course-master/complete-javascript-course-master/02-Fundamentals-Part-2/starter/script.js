@@ -175,7 +175,6 @@ console.log(friends.includes(23));
 if (friends.includes("Harsh")) {
     console.log("You have a friends called Harsh");
 }
-*/
 
 const jiteshArray = [
     "Jitesh",
@@ -192,3 +191,4 @@ const jitesh = {
     job: "programmer",
     friends: ["Raktim", "Shubham", "Karni"]
 };
+*/

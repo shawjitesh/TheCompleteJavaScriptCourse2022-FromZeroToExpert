@@ -145,8 +145,8 @@ population > avgPopulation ? console.log(`${country}'s population is above avera
 console.log("====================");
 */
 
-// console.log("====================");
-// console.log("Fundamentals - Part2")
+console.log("====================");
+console.log("Fundamentals - Part2")
 
 /*
 console.log("====================");
@@ -262,6 +262,18 @@ if (!neighbours.includes("Germany")) {
 
 neighbours[neighbours.indexOf("Pakistan")] = "LOC - Parkistan";
 console.log(neighbours);
+*/
 
 console.log("====================");
-*/
+console.log("Assignment for Introduction to Objects");
+
+const myCountry = {
+    country: "India",
+    capital: "Delhi",
+    language: "Hindi",
+    population: 200000000,
+    neighbours: ["Pakistan", "Nepal", "Bhutan", "Sri Lanka"]
+};
+console.log(myCountry);
+
+console.log("====================");
