@@ -263,3 +263,19 @@ console.log(jitesh.age);
 
 console.log(jitesh.getSummary());
 */
+
+// console.log("Lifting weights repeatition 1 🏋️");
+// console.log("Lifting weights repeatition 2 🏋️");
+// console.log("Lifting weights repeatition 3 🏋️");
+// console.log("Lifting weights repeatition 4 🏋️");
+// console.log("Lifting weights repeatition 5 🏋️");
+// console.log("Lifting weights repeatition 6 🏋️");
+// console.log("Lifting weights repeatition 7 🏋️");
+// console.log("Lifting weights repeatition 8 🏋️");
+// console.log("Lifting weights repeatition 9 🏋️");
+// console.log("Lifting weights repeatition 10 🏋️");
+
+// for loop keeps running while condition is TRUE
+for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Lifting weights repeatition ${rep} 🏋️`);
+}
