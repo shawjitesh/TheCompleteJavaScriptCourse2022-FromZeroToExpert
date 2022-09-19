@@ -141,7 +141,6 @@ console.log(age1, age2, age3);
 
 const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
 console.log(ages);
-*/
 
 const friends = ["Raktim", "Harsh", "Karni"];
 
@@ -176,3 +175,4 @@ console.log(friends.includes(23));
 if (friends.includes("Harsh")) {
     console.log("You have a friends called Harsh");
 }
+*/

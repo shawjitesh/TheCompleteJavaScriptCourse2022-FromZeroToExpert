@@ -145,8 +145,8 @@ population > avgPopulation ? console.log(`${country}'s population is above avera
 console.log("====================");
 */
 
-// console.log("====================");
-// console.log("Fundamentals - Part2")
+console.log("====================");
+console.log("Fundamentals - Part2")
 
 /*
 console.log("====================");
@@ -244,6 +244,24 @@ const percentageOfWorld1 = (population) => (population / worldPopulation) * 100;
 const percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]), percentageOfWorld1(populations[2]), percentageOfWorld1(populations[3])];
 
 console.log(percentages);
+*/
 
 console.log("====================");
-*/
+console.log("Assignment for Basic Array Operations(Methods)");
+
+const neighbours = ["Pakistan", "Nepal", "Bhutan", "Sri Lanka"];
+console.log(neighbours);
+
+neighbours.push("Utopia");
+console.log(neighbours);
+neighbours.pop();
+console.log(neighbours);
+
+if (!neighbours.includes("Germany")) {
+    console.log("Probably not a central European country. 😃");
+}
+
+neighbours[neighbours.indexOf("Pakistan")] = "LOC - Parkistan";
+console.log(neighbours);
+
+console.log("====================");
