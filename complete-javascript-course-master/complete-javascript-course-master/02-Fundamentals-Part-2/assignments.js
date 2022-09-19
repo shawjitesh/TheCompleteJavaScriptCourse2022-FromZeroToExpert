@@ -145,8 +145,8 @@ population > avgPopulation ? console.log(`${country}'s population is above avera
 console.log("====================");
 */
 
-console.log("====================");
-console.log("Fundamentals - Part2")
+// console.log("====================");
+// console.log("Fundamentals - Part2");
 
 /*
 console.log("====================");
@@ -318,7 +318,6 @@ console.log("Assignment for Iteration: The For Loop");
 for (let rep = 1; rep <= 50; rep++) {
     console.log(`Voter number ${rep} is currently voting.`);
 }
-*/
 
 console.log("====================");
 console.log("Assignment for Looping Arrays, Breaking and Continuing");
@@ -335,3 +334,4 @@ for (let i = 0; i < populations.length; i++) {
 console.log(percentages2);
 
 console.log("====================");
+*/
