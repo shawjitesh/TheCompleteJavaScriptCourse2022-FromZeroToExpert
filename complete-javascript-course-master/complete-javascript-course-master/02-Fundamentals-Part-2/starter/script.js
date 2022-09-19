@@ -224,7 +224,6 @@ console.log(jitesh);
 // "Jitesh has 3 friends, and his best friend is called Raktim"
 
 console.log(`${jitesh.firstName} has ${jitesh.friends.length} friends, and his best friend is called ${jitesh.friends[0]}`);
-*/
 
 const jitesh = {
     firstName: "Jitesh",
@@ -263,3 +262,4 @@ console.log(jitesh.age);
 // "Jitesh is a 29-year old programmer, and he has a driver's license."
 
 console.log(jitesh.getSummary());
+*/

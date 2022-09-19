@@ -145,8 +145,8 @@ population > avgPopulation ? console.log(`${country}'s population is above avera
 console.log("====================");
 */
 
-// console.log("====================");
-// console.log("Fundamentals - Part2")
+console.log("====================");
+console.log("Fundamentals - Part2")
 
 /*
 console.log("====================");
@@ -288,6 +288,29 @@ const myCountry = {
 console.log(myCountry);
 
 console.log(`${myCountry.country} has ${myCountry.population / 1000000} million ${myCountry.language}-speanking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`);
+*/
 
 console.log("====================");
-*/
+console.log("Assignment for Object Methods");
+
+const myCountry = {
+    country: "India",
+    capital: "Delhi",
+    language: "Hindi",
+    population: 200000000,
+    neighbours: ["Pakistan", "Nepal", "Bhutan", "Sri Lanka"],
+
+    describe: function () {
+        return `${this.country} has ${this.population / 1000000} million ${this.language}-speanking people, ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}.`;
+    },
+
+    checkIsIsland: function () {
+        this.isIsland = this.neighbours.length == 0 ? true : false;
+        return this.isIsland;
+    }
+};
+
+console.log(myCountry.describe());
+console.log(myCountry.checkIsIsland());
+
+console.log("====================");
