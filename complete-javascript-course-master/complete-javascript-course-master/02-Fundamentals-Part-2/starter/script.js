@@ -142,3 +142,37 @@ console.log(age1, age2, age3);
 const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
 console.log(ages);
 */
+
+const friends = ["Raktim", "Harsh", "Karni"];
+
+// Add elements
+const newLength = friends.push("Shubham");
+console.log(friends);
+console.log(newLength);
+
+friends.unshift("Vishwaraj");
+console.log(friends);
+
+// Remove elements
+friends.pop(); // Last
+const popped = friends.pop();
+console.log(popped);
+console.log(friends);
+
+friends.shift(); // First
+console.log(friends);
+
+// Retrive index of elements
+console.log(friends.indexOf("Harsh"));
+console.log(friends.indexOf("Shashank"));
+
+
+// Check existence of elements
+friends.push(23);
+console.log(friends.includes("Harsh"));
+console.log(friends.includes("Shaashank"));
+console.log(friends.includes(23));
+
+if (friends.includes("Harsh")) {
+    console.log("You have a friends called Harsh");
+}
