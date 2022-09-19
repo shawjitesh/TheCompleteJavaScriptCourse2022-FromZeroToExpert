@@ -92,8 +92,8 @@ billAmount >= 50 && billAmount <= 300 ? console.log(`The bill was ${billAmount},
 console.log("====================");
 */
 
-// console.log("====================");
-// console.log("Fundamentals - Part2");
+console.log("====================");
+console.log("Fundamentals - Part2");
 
 /*
 console.log("====================");
@@ -168,6 +168,37 @@ if (mark.BMI > john.BMI) {
 } else {
     console.log(`John's BMI(${john.BMI}) is higher than Mark's(${mark.BMI})!`);
 }
+*/
 
 console.log("====================");
-*/
+console.log("Coding Challenge #4");
+
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+
+const tips = [];
+const totals = [];
+const calcTip = (bill) => {
+    if (bill >= 50 && bill <= 300) return bill * .15;
+    else return bill * .2;
+}
+
+for (let i = 0; i < 10; i++) {
+    tips.push(calcTip(bills[i]));
+    totals.push(bills[i] + tips[i]);
+}
+console.log(tips, totals);
+
+const calcAverage = (arr) => {
+    let i = 0;
+    let sum = 0;
+
+    while (i < arr.length) {
+        sum += arr[i++];
+    }
+
+    const avg = sum / arr.length;
+    return avg;
+}
+console.log(calcAverage(totals));
+
+console.log("====================");

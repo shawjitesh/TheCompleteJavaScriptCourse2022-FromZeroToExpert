@@ -145,8 +145,8 @@ population > avgPopulation ? console.log(`${country}'s population is above avera
 console.log("====================");
 */
 
-console.log("====================");
-console.log("Fundamentals - Part2");
+// console.log("====================");
+// console.log("Fundamentals - Part2");
 
 /*
 console.log("====================");
@@ -348,7 +348,6 @@ for (let i = 0; i < listOfNeighbours.length; i++) {
         console.log(`Neighnour: ${listOfNeighbours[i][j]}`);
     }
 }
-*/
 
 console.log("====================");
 console.log("Assignment for The While Loop");
@@ -366,3 +365,4 @@ while (i < populations.length) {
 console.log(percentages3);
 
 console.log("====================");
+*/
