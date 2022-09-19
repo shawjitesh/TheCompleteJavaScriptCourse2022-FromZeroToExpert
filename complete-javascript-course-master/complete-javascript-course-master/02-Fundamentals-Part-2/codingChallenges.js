@@ -90,7 +90,6 @@ const billAmount = Number(prompt("What is the bill amount Jitesh?"));
 billAmount >= 50 && billAmount <= 300 ? console.log(`The bill was ${billAmount}, the tip was ${billAmount * 0.15}, and the total value ${billAmount + (billAmount * 0.15)}`) : console.log(`The bill was ${billAmount}, the tip was ${billAmount * 0.2}, and the total value ${billAmount + (billAmount * 0.2)}`);
 
 console.log("====================");
-*/
 
 console.log("====================");
 console.log("Fundamentals - Part2");
@@ -122,3 +121,4 @@ const checkWinner = (avgDolphins, avgKoalas) => {
 checkWinner(avgDolphins, avgKoalas);
 
 console.log("====================");
+*/
