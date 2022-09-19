@@ -278,7 +278,6 @@ console.log(jitesh.getSummary());
 for (let rep = 1; rep <= 10; rep++) {
     console.log(`Lifting weights repeatition ${rep} 🏋️`);
 }
-*/
 
 const jiteshArray = [
     "Jitesh",
@@ -325,3 +324,4 @@ for (let i = 0; i < jiteshArray.length; i++) {
     if (typeof jiteshArray[i] === "number") break;
     console.log(jiteshArray[i], typeof jiteshArray[i]);
 }
+*/

@@ -145,8 +145,8 @@ population > avgPopulation ? console.log(`${country}'s population is above avera
 console.log("====================");
 */
 
-// console.log("====================");
-// console.log("Fundamentals - Part2")
+console.log("====================");
+console.log("Fundamentals - Part2")
 
 /*
 console.log("====================");
@@ -318,6 +318,20 @@ console.log("Assignment for Iteration: The For Loop");
 for (let rep = 1; rep <= 50; rep++) {
     console.log(`Voter number ${rep} is currently voting.`);
 }
+*/
 
 console.log("====================");
-*/
+console.log("Assignment for Looping Arrays, Breaking and Continuing");
+
+const worldPopulation = 7900000000;
+const populations = [200000000, 60000000, 100000000, 330000000];
+
+const percentageOfWorld1 = (population) => (population / worldPopulation) * 100;
+
+const percentages2 = [];
+for (let i = 0; i < populations.length; i++) {
+    percentages2.push(percentageOfWorld1(populations[i]));
+}
+console.log(percentages2);
+
+console.log("====================");
