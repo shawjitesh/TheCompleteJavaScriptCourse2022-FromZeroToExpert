@@ -181,7 +181,7 @@ const jiteshArray = [
     "Shaw",
     2022 - 1993,
     "programmer",
-
+    friends: ["Raktim", "Shubham", "Karni"]
 ];
 
 const jitesh = {
@@ -279,3 +279,49 @@ for (let rep = 1; rep <= 10; rep++) {
     console.log(`Lifting weights repeatition ${rep} 🏋️`);
 }
 */
+
+const jiteshArray = [
+    "Jitesh",
+    "Shaw",
+    2022 - 1993,
+    "programmer",
+    ["Raktim", "Shubham", "Karni"],
+    true
+];
+const types = [];
+
+// console.log(jiteshArray[0]);
+// console.log(jiteshArray[1]);
+// ...
+// console.log(jiteshArray[4]);
+// jiteshArray[5] does NOT exist
+
+for (let i = 0; i < jiteshArray.length; i++) {
+    console.log(jiteshArray[i], typeof jiteshArray[i]);
+
+    // Filling types array
+    // types[i] = typeof jiteshArray[i];
+    types.push(typeof jiteshArray[i]);
+}
+console.log(types);
+
+const years = [1993, 2008, 1965, 1970];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+    ages.push(2022 - years[i]);
+}
+console.log(ages);
+
+// continue and break
+console.log("--- ONLY STRINGS ---");
+for (let i = 0; i < jiteshArray.length; i++) {
+    if (typeof jiteshArray[i] !== "string") continue;
+    console.log(jiteshArray[i], typeof jiteshArray[i]);
+}
+
+console.log("--- BREAK WITH NUMBER ---");
+for (let i = 0; i < jiteshArray.length; i++) {
+    if (typeof jiteshArray[i] === "number") break;
+    console.log(jiteshArray[i], typeof jiteshArray[i]);
+}
