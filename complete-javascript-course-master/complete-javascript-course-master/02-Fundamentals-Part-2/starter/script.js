@@ -262,7 +262,6 @@ console.log(jitesh.age);
 // "Jitesh is a 29-year old programmer, and he has a driver's license."
 
 console.log(jitesh.getSummary());
-*/
 
 // console.log("Lifting weights repeatition 1 🏋️");
 // console.log("Lifting weights repeatition 2 🏋️");
@@ -279,3 +278,4 @@ console.log(jitesh.getSummary());
 for (let rep = 1; rep <= 10; rep++) {
     console.log(`Lifting weights repeatition ${rep} 🏋️`);
 }
+*/

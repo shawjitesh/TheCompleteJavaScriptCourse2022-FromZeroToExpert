@@ -145,8 +145,8 @@ population > avgPopulation ? console.log(`${country}'s population is above avera
 console.log("====================");
 */
 
-// console.log("====================");
-// console.log("Fundamentals - Part2")
+console.log("====================");
+console.log("Fundamentals - Part2")
 
 /*
 console.log("====================");
@@ -311,6 +311,13 @@ const myCountry = {
 
 console.log(myCountry.describe());
 console.log(myCountry.checkIsIsland());
+*/
 
 console.log("====================");
-*/
+console.log("Assignment for Iteration: The For Loop");
+
+for (let rep = 1; rep <= 50; rep++) {
+    console.log(`Voter number ${rep} is currently voting.`);
+}
+
+console.log("====================");
