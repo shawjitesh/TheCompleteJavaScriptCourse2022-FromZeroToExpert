@@ -92,8 +92,8 @@ billAmount >= 50 && billAmount <= 300 ? console.log(`The bill was ${billAmount},
 console.log("====================");
 */
 
-console.log("====================");
-console.log("Fundamentals - Part2");
+// console.log("====================");
+// console.log("Fundamentals - Part2");
 
 /*
 console.log("====================");
@@ -168,7 +168,6 @@ if (mark.BMI > john.BMI) {
 } else {
     console.log(`John's BMI(${john.BMI}) is higher than Mark's(${mark.BMI})!`);
 }
-*/
 
 console.log("====================");
 console.log("Coding Challenge #4");
@@ -202,3 +201,4 @@ const calcAverage = (arr) => {
 console.log(calcAverage(totals));
 
 console.log("====================");
+*/
