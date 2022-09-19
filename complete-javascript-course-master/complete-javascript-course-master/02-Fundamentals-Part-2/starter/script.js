@@ -192,3 +192,36 @@ const jitesh = {
     friends: ["Raktim", "Shubham", "Karni"]
 };
 */
+
+const jitesh = {
+    firstName: "Jitesh",
+    lastName: "Shaw",
+    age: 2022 - 1993,
+    job: "programmer",
+    friends: ["Raktim", "Shubham", "Karni"]
+};
+console.log(jitesh);
+
+console.log(jitesh.lastName);
+console.log(jitesh["lastName"]);
+
+const nameKey = "Name";
+console.log(jitesh["first" + nameKey]);
+console.log(jitesh["last" + nameKey]);
+
+// console.log(jitesh."last" + nameKey);
+
+const interestedIn = prompt("What do you want to know about Jitesh? Choose between firstName, lastName, age, job, and friends");
+console.log(jitesh[interestedIn]);
+
+if (jitesh[interestedIn]) console.log(jitesh[interestedIn]);
+else console.log("Wrong request! Choose between firstName, lastName, age, job, and friends");
+
+jitesh.location = "Bengaluru";
+jitesh["instagram"] = "@shawjitesh";
+console.log(jitesh);
+
+// Challenge
+// "Jonas has 3 friends, and his best friend is called Raktim"
+
+console.log(`${jitesh.firstName} has ${jitesh.friends.length} friends, and his best friend is called ${jitesh.friends[0]}`);
