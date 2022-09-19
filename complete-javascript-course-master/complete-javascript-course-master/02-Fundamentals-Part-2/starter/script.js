@@ -324,7 +324,6 @@ for (let i = 0; i < jiteshArray.length; i++) {
     if (typeof jiteshArray[i] === "number") break;
     console.log(jiteshArray[i], typeof jiteshArray[i]);
 }
-*/
 
 const jiteshArray = [
     "Jitesh",
@@ -349,3 +348,4 @@ for (let exercise = 1; exercise < 4; exercise++) {
         console.log(`Lifting weight repeatition ${rep} 🏋️`);
     }
 }
+*/

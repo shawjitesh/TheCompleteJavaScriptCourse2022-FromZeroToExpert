@@ -145,8 +145,8 @@ population > avgPopulation ? console.log(`${country}'s population is above avera
 console.log("====================");
 */
 
-// console.log("====================");
-// console.log("Fundamentals - Part2");
+console.log("====================");
+console.log("Fundamentals - Part2");
 
 /*
 console.log("====================");
@@ -332,6 +332,22 @@ for (let i = 0; i < populations.length; i++) {
     percentages2.push(percentageOfWorld1(populations[i]));
 }
 console.log(percentages2);
+*/
 
 console.log("====================");
-*/
+console.log("Assignment for Looping Backwards and Loops in Loops");
+
+const listOfNeighbours = [
+    ["Canada", "Mexico"],
+    ["Spain"],
+    ["Norway", "Sweden", "Russia"]
+];
+
+for (let i = 0; i < listOfNeighbours.length; i++) {
+    console.log(`------ Country ${i + 1} ------`);
+    for (let j = 0; j < listOfNeighbours[i].length; j++) {
+        console.log(`Neighnour: ${listOfNeighbours[i][j]}`);
+    }
+}
+
+console.log("====================");
