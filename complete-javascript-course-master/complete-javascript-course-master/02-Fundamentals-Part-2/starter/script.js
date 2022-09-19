@@ -176,3 +176,19 @@ if (friends.includes("Harsh")) {
     console.log("You have a friends called Harsh");
 }
 */
+
+const jiteshArray = [
+    "Jitesh",
+    "Shaw",
+    2022 - 1993,
+    "programmer",
+
+];
+
+const jitesh = {
+    firstName: "Jitesh",
+    lastName: "Shaw",
+    age: 2022 - 1993,
+    job: "programmer",
+    friends: ["Raktim", "Shubham", "Karni"]
+};
