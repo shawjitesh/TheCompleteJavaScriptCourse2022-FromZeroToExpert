@@ -90,9 +90,12 @@ const billAmount = Number(prompt("What is the bill amount Jitesh?"));
 billAmount >= 50 && billAmount <= 300 ? console.log(`The bill was ${billAmount}, the tip was ${billAmount * 0.15}, and the total value ${billAmount + (billAmount * 0.15)}`) : console.log(`The bill was ${billAmount}, the tip was ${billAmount * 0.2}, and the total value ${billAmount + (billAmount * 0.2)}`);
 
 console.log("====================");
+*/
 
 console.log("====================");
 console.log("Fundamentals - Part2");
+
+/*
 console.log("====================");
 console.log("Coding Challenge #1");
 
@@ -119,6 +122,20 @@ const checkWinner = (avgDolphins, avgKoalas) => {
 }
 
 checkWinner(avgDolphins, avgKoalas);
+*/
 
 console.log("====================");
-*/
+console.log("Coding Challenge #2");
+
+const calcTip = (bill) => {
+    if (bill >= 50 && bill <= 300) return bill * .15;
+    else return bill * .2;
+}
+console.log(calcTip(100));
+
+const bills = [125, 555, 44];
+
+const total = [calcTip(bills[0]) + bills[0], calcTip(bills[1]) + bills[1], calcTip(bills[2]) + bills[2]];
+console.log(`Total bills are: ${total}`);
+
+console.log("====================");
