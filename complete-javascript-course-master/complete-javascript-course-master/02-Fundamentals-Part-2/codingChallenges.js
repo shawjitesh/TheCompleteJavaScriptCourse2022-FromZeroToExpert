@@ -92,8 +92,8 @@ billAmount >= 50 && billAmount <= 300 ? console.log(`The bill was ${billAmount},
 console.log("====================");
 */
 
-// console.log("====================");
-// console.log("Fundamentals - Part2");
+console.log("====================");
+console.log("Fundamentals - Part2");
 
 /*
 console.log("====================");
@@ -136,6 +136,38 @@ const bills = [125, 555, 44];
 
 const total = [calcTip(bills[0]) + bills[0], calcTip(bills[1]) + bills[1], calcTip(bills[2]) + bills[2]];
 console.log(`Total bills are: ${total}`);
+*/
 
 console.log("====================");
-*/
+console.log("Coding Challenge #3");
+
+const mark = {
+    fullName: "Mark Miller",
+    mass: 78,
+    height: 1.69,
+    calcBMI: function () {
+        this.BMI = this.mass / this.height ** 2;
+        return this.BMI;
+    }
+};
+
+const john = {
+    fullName: "John Smith",
+    mass: 92,
+    height: 1.95,
+    calcBMI: function () {
+        this.BMI = this.mass / this.height ** 2;
+        return this.BMI;
+    }
+};
+
+mark.calcBMI();
+john.calcBMI();
+
+if (mark.BMI > john.BMI) {
+    console.log(`Mark's BMI(${mark.BMI}) is higher than John's(${john.BMI})!`);
+} else {
+    console.log(`John's BMI(${john.BMI}) is higher than Mark's(${mark.BMI})!`);
+}
+
+console.log("====================");
