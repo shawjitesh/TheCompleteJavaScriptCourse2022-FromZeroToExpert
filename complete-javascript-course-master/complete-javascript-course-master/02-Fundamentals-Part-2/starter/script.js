@@ -221,7 +221,45 @@ jitesh["instagram"] = "@shawjitesh";
 console.log(jitesh);
 
 // Challenge
-// "Jonas has 3 friends, and his best friend is called Raktim"
+// "Jitesh has 3 friends, and his best friend is called Raktim"
 
 console.log(`${jitesh.firstName} has ${jitesh.friends.length} friends, and his best friend is called ${jitesh.friends[0]}`);
 */
+
+const jitesh = {
+    firstName: "Jitesh",
+    lastName: "Shaw",
+    birthYear: 1993,
+    job: "programmer",
+    friends: ["Raktim", "Shubham", "Karni"],
+    hasDriversLicense: true,
+
+    // calcAge: function (birthYear) {
+    //     return 2022 - birthYear;
+    // }
+
+    // calcAge: function () {
+    //     console.log(this);
+    //     return 2022 - this.birthYear;
+    // }
+
+    calcAge: function () {
+        this.age = 2022 - this.birthYear;
+        return this.age;
+    },
+
+    getSummary: function () {
+        return `${this.firstName} is a ${this.age}-year old ${this.job}, and he ${this.hasDriversLicense ? "has" : "doesn't has"} a driver's license.`;
+    }
+};
+
+console.log(jitesh.calcAge());
+
+console.log(jitesh.age);
+console.log(jitesh.age);
+console.log(jitesh.age);
+
+// Challenge
+// "Jitesh is a 29-year old programmer, and he has a driver's license."
+
+console.log(jitesh.getSummary());

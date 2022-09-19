@@ -145,8 +145,8 @@ population > avgPopulation ? console.log(`${country}'s population is above avera
 console.log("====================");
 */
 
-console.log("====================");
-console.log("Fundamentals - Part2")
+// console.log("====================");
+// console.log("Fundamentals - Part2")
 
 /*
 console.log("====================");
@@ -274,7 +274,6 @@ const myCountry = {
     neighbours: ["Pakistan", "Nepal", "Bhutan", "Sri Lanka"]
 };
 console.log(myCountry);
-*/
 
 console.log("====================");
 console.log("Assignment for Dot vs Bracket Notation");
@@ -291,3 +290,4 @@ console.log(myCountry);
 console.log(`${myCountry.country} has ${myCountry.population / 1000000} million ${myCountry.language}-speanking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`);
 
 console.log("====================");
+*/
