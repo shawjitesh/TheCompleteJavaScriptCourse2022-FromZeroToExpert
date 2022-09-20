@@ -202,3 +202,23 @@ console.log(calcAverage(totals));
 
 console.log("====================");
 */
+
+console.log("====================");
+console.log("Developer Skills and Editor Setup");
+
+console.log("====================");
+console.log("Coding Challenge #1");
+
+const printForecast = (arr) => {
+  let str = "";
+  for (let i = 0; i < arr.length; i++) {
+    str += `${arr[i]}°C in ${i + 1} days ... `;
+  }
+  console.log("... " + str);
+};
+
+printForecast([17, 21, 23]);
+console.log("--------------------");
+printForecast([12, 5, -5, 0, 4]);
+
+console.log("====================");

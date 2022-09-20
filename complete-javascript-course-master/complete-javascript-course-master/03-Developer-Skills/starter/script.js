@@ -62,7 +62,6 @@ const calcTempAmplitudeBug = function (t1, t2) {
 };
 const amplitudeBug = calcTempAmplitudeBug([3, 5, 1], [9, 0, 5]);
 console.log(amplitudeBug);
-*/
 
 const measureKelvin = function () {
   const measurement = {
@@ -109,3 +108,4 @@ const calcTempAmplitudeBug = function (t1, t2) {
 const amplitudeBug = calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]);
 // IDENTIFY
 console.log(amplitudeBug);
+*/
