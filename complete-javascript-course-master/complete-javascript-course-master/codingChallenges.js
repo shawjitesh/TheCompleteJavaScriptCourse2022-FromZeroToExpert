@@ -201,7 +201,6 @@ const calcAverage = (arr) => {
 console.log(calcAverage(totals));
 
 console.log("====================");
-*/
 
 console.log("====================");
 console.log("Developer Skills and Editor Setup");
@@ -222,3 +221,4 @@ console.log("--------------------");
 printForecast([12, 5, -5, 0, 4]);
 
 console.log("====================");
+*/
